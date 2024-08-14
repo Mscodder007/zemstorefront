@@ -1,0 +1,32 @@
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Import Mapping -->
+<script type="importmap">
+  {
+    "imports": {
+      "@dropins/elsie/": "/scripts/__dropins__/elsie/",
+      "@dropins/storefront-cart/": "/scripts/__dropins__/storefront-cart/",
+      "@dropins/storefront-checkout/": "/scripts/__dropins__/storefront-checkout/",
+      "@dropins/storefront-pdp/": "/scripts/__dropins__/storefront-pdp/",
+      "@dropins/storefront-order-confirmation/": "/scripts/__dropins__/storefront-order-confirmation/"
+    }
+  }
+</script>
+
+<script src="/scripts/aem.js" type="module"></script>
+<script src="/scripts/scripts.js" type="module">
+  window.adobeDataLayer = window.adobeDataLayer || [];
+</script>
+
+<link rel="stylesheet" href="/styles/styles.css" />
+
+<!--
+  JavaScript import for the Adobe Client Data Layer package.
+  This package is used to send purchase and checkout data to the Adobe Experience Platform edge to be
+  analyzed later.
+-->
+<script
+  src="https://www.unpkg.com/@adobe/adobe-client-data-layer@2.0.2/dist/adobe-client-data-layer.min.js"
+  async
+  defer
+></script>
