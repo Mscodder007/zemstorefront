@@ -1,0 +1,5 @@
+mountpoints:
+  /: https://adobe-my.sharepoint.com/:f:/r/personal/cabre_adobe_com/Documents/hlxsites/starter-content-commerce
+
+folders:
+  /products/: /products/default
